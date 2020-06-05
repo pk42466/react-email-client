@@ -1,0 +1,11 @@
+body, body * {
+  box-sizing: border-box;
+}
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  padding-left: 300px;
+  padding-top: 70px;
+}

@@ -1,0 +1,40 @@
+.mail-list {
+    width: 500px;
+    border-right: 1px solid #bbb;
+    height: 100%;
+    overflow-y: scroll;
+    float:left;
+}
+.mail-list .list-item .date {
+    font-size: 11px;
+    text-align: left;
+}
+.mail-list .list-item{
+    padding: 10px;
+    border-bottom: 1px solid #bbb;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.mail-list .list-item:hover,
+.mail-list .list-item.active{
+    background: #bbb;
+}
+.mail-list .list-item .sender{
+    font-weight: 600; 
+    font-size: 16px;
+}
+.mail-list .list-item .sender,
+.mail-list .list-item .subject,
+.mail-list .list-item .message{   
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.mail-list .list-item .sender .important{}
+.mail-list .list-item .subject,
+.mail-list .list-item .message{
+    font-size: 14px;
+}
+.mail-list .list-item .message{
+    color: #8a8a8a;
+}

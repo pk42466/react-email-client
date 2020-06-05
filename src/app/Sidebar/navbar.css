@@ -1,0 +1,50 @@
+.nav-bar {
+    position: fixed;
+    background: #eee;
+    top: 70px;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    z-index: 10;
+    padding-bottom: 70px;
+    overflow-y: scroll;
+}
+.nav-bar ul {
+    margin: 0;
+    padding: 0;
+}
+.nav-bar ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #e2e0e0;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #222;
+    padding: 20px 30px;
+    display: block;
+    position: relative;
+}
+.nav-bar ul li a:hover {
+    background-color: #bbb;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+.nav-bar ul li a .count{
+    position: absolute;
+    background-color: red;
+    color: #fff;
+    font-size: 12px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 13px;
+    top: 22px;
+    margin-left: 10px;
+}
+.nav-bar ul li a.active {
+    background-color: #bbb;
+}

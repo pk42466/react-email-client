@@ -1,0 +1,10 @@
+.page-content {
+    height: calc(100vh - 70px);
+    height: -webkit-calc(100vh - 70px);
+}
+.item-viewer {
+    height: calc(100vh - 70px);
+    height: -webkit-calc(100vh - 70px);
+    width: calc(100vw - 800px);
+    float: left;
+}

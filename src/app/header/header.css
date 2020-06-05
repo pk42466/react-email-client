@@ -1,0 +1,15 @@
+.app-header {
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    box-shadow: 0 0 5px 1px #c5c5c5;
+    z-index: 11;
+    text-align: center;
+}
+.app-header .title {
+    font-size: 40px;
+    line-height: 70px;
+    text-transform: uppercase;
+}
